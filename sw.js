@@ -3,14 +3,14 @@ self.addEventListener('push', event => {
 
     self.registration.showNotification(data.title, {
         body: data.body,
-        icon: '/icon.png' // isteğe bağlı ikon
+        icon: '/route-64.png'
     });
 });
 
-const CACHE_NAME = 'cache-202509161442';
+const CACHE_NAME = 'cache-202509161550';
 const CACHE_ASSETS = [
-    '/assets/index-gHCyjzWm.js',
-    '/assets/index-DIWQtTtX.css',
+    '/assets/index-DMmwRdCv.js',
+    '/assets/index-Cl6_3Zk7.css',
     '/route-64.png',
     '/route-192.png',
     '/route-512.png'
@@ -47,7 +47,6 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
     event.respondWith(
         caches.match(event.request).then(cachedResponse => {
-            // Cache'de varsa onu döndür, yoksa ağdan iste
             return cachedResponse || fetch(event.request);
         })
     );

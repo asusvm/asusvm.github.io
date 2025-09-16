@@ -7,9 +7,9 @@ self.addEventListener('push', event => {
     });
 });
 
-const CACHE_NAME = 'cache-202509161302';
+const CACHE_NAME = 'cache-202509161330';
 const CACHE_ASSETS = [
-    '/assets/index-C0cFjg1D.js',
+    '/assets/index-C-A2FNwL.js',
     '/assets/index-54UNzwDZ.css',
     '/route-64.png',
     '/route-192.png',

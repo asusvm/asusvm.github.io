@@ -7,10 +7,10 @@ self.addEventListener('push', event => {
     });
 });
 
-const CACHE_NAME = 'cache-202509161402';
+const CACHE_NAME = 'cache-202509161442';
 const CACHE_ASSETS = [
-    '/assets/index-CM6MmgFZ.js',
-    '/assets/index-CB3Frvi1.css',
+    '/assets/index-gHCyjzWm.js',
+    '/assets/index-DIWQtTtX.css',
     '/route-64.png',
     '/route-192.png',
     '/route-512.png'

@@ -7,7 +7,7 @@ self.addEventListener('push', event => {
     });
 });
 
-const CACHE_NAME = 'cache-202509161550';
+const CACHE_NAME = 'cache-202509161600';
 const CACHE_ASSETS = [
     '/assets/index-DMmwRdCv.js',
     '/assets/index-Cl6_3Zk7.css',
